@@ -1,0 +1,37 @@
+{
+  "name": "mom-sitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gangpyono/mom-sitter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gangpyono/mom-sitter/issues"
+  },
+  "homepage": "https://github.com/gangpyono/mom-sitter#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.0.0",
+    "css-loader": "^6.6.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.69.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "@octokit/core": "^3.5.1",
+    "axios": "^0.26.0"
+  }
+}
