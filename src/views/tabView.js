@@ -1,11 +1,11 @@
 const tabView = () => {
-  const tabsContainer = document.querySelector(".tabsContainer");
+  const tabsContainer = document.createElement("div");
+  tabsContainer.setAttribute("class", "tabsContainer");
+  tabsContainer.innerHTML = ` 
+  <button class="tab active">API</button>
+  <button class="tab ">로컬</button>`;
 
-  tabsContainer.addEventListener("click", (e) => {
-    const activeEl = document.querySelector(".tab.active");
-    activeEl.classList.remove("active");
-    e.target.classList.add("active");
-  });
+  return tabsContainer;
 };
 
 export default tabView;
